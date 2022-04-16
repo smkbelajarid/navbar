@@ -1,0 +1,111 @@
+* {
+  font-family: "ZCOOL XiaoWei", serif;
+}
+
+#desktop-navbar .navbar {
+  padding: 0;
+  height: 90px;
+  background-color: #004e75;
+}
+
+#desktop-navbar .navbar .container .navbar-brand img {
+  width: auto;
+  height: 50px;
+}
+
+#desktop-navbar .navbar .nav-item {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#desktop-navbar .navbar .nav-item .nav-link {
+  color: #ffd6ba;
+  font-size: 16px;
+}
+
+#desktop-navbar .navbar .container .buat-undangan {
+  background-color: #ffd6ba;
+  border-radius: 5px;
+  color: #5e6472;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+#mobile-navbar {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  #desktop-navbar {
+    display: none;
+  }
+  #mobile-navbar {
+    display: block;
+  }
+
+  #mobile-navbar .navbar {
+    padding: 0;
+    height: 50px;
+    background-color: #004e75;
+  }
+
+  #mobile-navbar .container {
+    position: relative;
+  }
+
+  #mobile-navbar .navbar .container .buat-undangan {
+    background-color: #ffd6ba;
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: #5e6472;
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    right: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  #mobile-navbar .navbar .container .navbar-brand {
+    padding: 0;
+    margin: 0;
+  }
+
+  #mobile-navbar .navbar .container .navbar-brand img {
+    width: auto;
+    height: 40px;
+  }
+
+  #mobile-navbar .navbar .container .navbar-toggler {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+  }
+
+  #mobile-navbar .navbar .container .navbar-toggler:focus,
+  #mobile-navbar .navbar .container .navbar-toggler:active,
+  #mobile-navbar .navbar .container .navbar-toggler:hover {
+    outline: none;
+    box-shadow: none;
+  }
+
+  #mobile-navbar .navbar .container .navbar-toggler .navbar-icons {
+    font-size: 30px;
+    color: white;
+  }
+  #mobile-navbar #mobile-content {
+    background-color: #004e75;
+  }
+  #mobile-navbar #mobile-content #nav-mobile-content .nav-item .nav-link {
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #mobile-navbar .navbar .container .navbar-brand img {
+    width: auto;
+    height: 35px;
+  }
+}
